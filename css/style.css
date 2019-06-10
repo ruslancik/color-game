@@ -1,0 +1,81 @@
+body {
+    background-image: linear-gradient(to right, #bdc3c7,#2c3e50);
+    margin: 0 auto;
+   }
+   
+   h1 {
+     color:white;
+     text-align:center;
+     font: 30px sans-serif;
+     font-family: Verdana;
+     text-shadow: 2px 3px 10px black;
+   }
+   h1 span {
+     display:inline-block;
+     padding: 10px auto;
+     margin: 5px;
+     text-transform:uppercase;
+     }
+   
+   .square {
+     width: 30%;
+     background-color: yellow;
+     padding-bottom: 30%;
+     float:left;
+     margin: 1.66%;
+     border-radius: 50%;
+   }
+   #container {
+     max-width: 600px;
+     margin: 0 auto;
+   }
+   
+   #message {
+   color: red;
+   font-weight:bold;
+   font-family:verdana;
+   font-size: 14px;
+   vertical-align:center;
+   height:100%;
+   padding-left: 20px;
+   }
+   #nav {
+     max-width: 600px;
+     margin: 5px auto;
+     background-color:white;
+   }
+   
+   .btn {
+     border:none;
+     color: red;
+     font-weight:bold;
+     font-family:verdana;
+     background-color:white;
+     font-size: 14px;
+     vertical-align:center;
+     height:100%;  
+     outline:none;
+     transition: all 0.3s;
+   }
+   .btn:hover {
+     background-color:red;
+     color:white;
+   }
+   .btn:active{
+     outline: none;
+     border: none;
+   }
+   #nav {
+     height:30px;
+     padding:5px;
+   }
+   
+   #easy,#hard {
+     float:right;
+     padding:0 20px;
+   }
+   .selected {
+     background-color:red;
+     color:white;
+   }
+   
